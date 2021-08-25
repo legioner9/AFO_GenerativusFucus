@@ -1,2 +1,2 @@
-cd /home/st/data_1/NBase
-git pull origin master&
+cd /home/st/data_1/AFO_GenerativusFucus
+git pull origin master
