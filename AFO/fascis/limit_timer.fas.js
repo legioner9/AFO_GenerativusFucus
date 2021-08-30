@@ -32,10 +32,6 @@ const internus = (exitus, communis, fn, ...args) => {
 };
 
 const communis = {
-  alius: {
-    method() {
-    },
-  },
   internus,
   os: function() {
   },

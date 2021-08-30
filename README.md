@@ -16,7 +16,7 @@
 - Fascis - наполняющие методы в структуру - как делаем  
      [AFO\fascis](AFO\fascis)
 
-- Operati - использование функций в коде - зачем делаем
+- Operati - использование функций в коде - зачем делаем  
      [AFO\operati](AFO\operati)
 
 ### Explicationes
@@ -24,6 +24,7 @@
 - artus - функция замыкание
 - exitus - замыкаемая функция
 - communis - общий объект замыания для artus и exitus
+  - alius - дополнительные методы внешних библиотек для вызова в internus
   - internus - вызывающая fn функция
   - objProto - ссылка на прототип exitus - сеттеры полей closure 
   - closure - флаги поведения и общие переменные методов
@@ -32,3 +33,20 @@
   - os - объект для конструирования прототипа exitus
     - getCommunis - геттер для копии communis
       - tmp - объект для дописывания в прототип getOstium предыдущего прототипа fn.getCommunis, существующего в случае, если fn уже была обернута - в случае композиции врапперов в цепочку прототипов getCommunis будут записаны все аналогичные геттеры от предыдущих оберток, если они были artusAPI - это дает возможность посмотреть копию любого замыкания для тестирования поведения fn зависящего от флагов и полей замыкания
+
+### *.art.js
+- clone - копия объекта
+- artus - обертка
+- exports - {artus}
+### *.fas.js
+- require - *.art.js
+- objProto
+- internus
+- communis
+- exports - artus.bind(null, communis)
+### *.oper.js
+- require - *.fas.js
+- fn
+- wfn = wrap(fn).objProtoMeth()
+- usu 
+  - wfn(args)
