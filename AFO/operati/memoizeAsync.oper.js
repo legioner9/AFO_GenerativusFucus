@@ -1,6 +1,6 @@
 'use strict';
 
-const { memoizeAsync } = require('../fascis/i_fascis');
+const { memoizeAsync } = require('../fascis/memoizeAsync.fas');
 
 const fn = (x, callback) => {
   if (typeof x !== 'number') callback('argument is not a number');

@@ -1,7 +1,7 @@
 'use strict';
 
-const { print } = require('../fascis/p_fascis');
-const { cancelResume } = require('../fascis/cr_fascis');
+const { print } = require('../fascis/printArgs.fas');
+const { cancelResume } = require('../fascis/cancel_resume.fas');
 
 const fn = function(...args) {
   console.dir({ args });

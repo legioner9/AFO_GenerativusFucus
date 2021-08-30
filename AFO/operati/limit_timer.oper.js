@@ -1,6 +1,6 @@
 'use strict';
 
-const { timer } = require('../fascis/g_fascis');
+const { timer } = require('../fascis/limit_timer.fas');
 
 const fn = function(...args) {
   console.dir({ args });

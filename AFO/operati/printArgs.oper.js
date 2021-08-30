@@ -1,6 +1,6 @@
 'use strict';
 
-const { print } = require('../fascis/p_fascis');
+const { print } = require('../fascis/printArgs.fas');
 
 const fn = function(...args) {
   console.dir({ args });

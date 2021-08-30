@@ -1,6 +1,6 @@
 'use strict';
 
-const { cancelResume } = require('../fascis/cr_fascis');
+const { cancelResume } = require('../fascis/cancel_resume.fas');
 
 const fn = function(...args) {
   console.dir({ args });

@@ -1,6 +1,6 @@
 'use strict';
 
-const { artus } = require('../artus/artus');
+const { artus } = require('../artus/wrap.art');
 
 const objProto = {
   cancel() {

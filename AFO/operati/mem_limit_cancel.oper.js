@@ -1,8 +1,8 @@
 'use strict';
 
-const { timer } = require('../fascis/g_fascis');
-const { memoizeAsync } = require('../fascis/i_fascis');
-const { cancelResume } = require('../fascis/cr_fascis');
+const { timer } = require('../fascis/limit_timer.fas');
+const { memoizeAsync } = require('../fascis/memoizeAsync.fas');
+const { cancelResume } = require('../fascis/cancel_resume.fas');
 
 const fn = (x, callback) => {
   if (typeof x !== 'number') callback('argument is not a number');
