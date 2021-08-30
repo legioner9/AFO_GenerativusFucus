@@ -1,4 +1,5 @@
-# Praeambulum
+## Praeambulum 
+Dicata magna programmer, philosophus et amicus.
 ## Lexicon
 Латынь выбрана основным языком теминов в этом проекте - локальный словарь - [Lexicon](Lexicon\primum_centum.md)
 ## Filium
@@ -37,16 +38,24 @@
 ### *.art.js
 - clone - копия объекта
 - artus - обертка
+  - exitus
+    - ostium
+    - os.prototype.getOstium
+    - internus
+  - add prototype to prototype.getCommunis
+  - os collect from objProto
+  - setPrototype getCommunis as fn.__proto__
+  - setPrototype exitus as os.prototype
 - exports - {artus}
 ### *.fas.js
 - require - *.art.js
-- objProto
+- objProto 
 - internus
 - communis
 - exports - artus.bind(null, communis)
 ### *.oper.js
 - require - *.fas.js
 - fn
-- wfn = wrap(fn).objProtoMeth()
+- wfn = wrap(fn).objProto.Meth()
 - usu 
   - wfn(args)
