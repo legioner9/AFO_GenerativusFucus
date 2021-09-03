@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	
+[remote "github_l9"]
+	url = git@github.com:legioner9/AFO_GenerativusFucus.git
+	fetch = +refs/heads/*:refs/remotes/github_l9/*
+[remote "disk_tosh"]
+	url = D:AFO_GenerativusFucus_repo
+	fetch = +refs/heads/*:refs/remotes/disk_tosh/*
+[remote "usb_32"]
+	url = I:AFO_GenerativusFucus_repo
+	fetch = +refs/heads/*:refs/remotes/usb_32/*
+[submodule "AFO_GenerativusFucus"]
+	url = git@github.com:legioner9/AFO_GenerativusFucus.git
+	active = true
+[submodule "Lexicon"]
+	url = git@github.com:legioner9/Lexicon.git
+	active = true

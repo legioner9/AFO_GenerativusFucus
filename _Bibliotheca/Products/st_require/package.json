@@ -1,0 +1,37 @@
+{
+  "_from": "st_require@^1.0.0",
+  "_id": "st_require@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ssYu/BteidbdlTmMPeL5SfFEcIQS53USfHszJ9v5IsHwMtlireaO3bZacW5NJqJrrqsQ26T/M7MUTSyatqjuEg==",
+  "_location": "/st_require",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "st_require@^1.0.0",
+    "name": "st_require",
+    "escapedName": "st_require",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/st_require/-/st_require-1.0.0.tgz",
+  "_shasum": "6f833794204507484c6ad8b765d8f046fbe7bb7b",
+  "_spec": "st_require@^1.0.0",
+  "_where": "F:\\Node_projects\\Node_Way",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "st_require",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
